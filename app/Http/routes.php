@@ -29,3 +29,7 @@ Route::get('/username/{username}', function (\App\User $user) {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/v', function () {
+    return view('v');
+});
