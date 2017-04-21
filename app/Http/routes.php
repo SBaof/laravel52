@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// wechat
+Route::any('/wechat', 'WechatController@serve');
+
 // test for route-model binding
 Route::get('/user/{user}', function (\App\User $user) {
     return $user;

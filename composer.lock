@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc19f3e3858b7f5f4f2b6e8299161201",
-    "content-hash": "98330a2ac1dbcd19fa9a6cbce7d83946",
+    "hash": "58efe1d8711b6cfa6d4e196028e30fec",
+    "content-hash": "a366dbfb48a97affee09d9c9fcb837f9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -986,6 +986,48 @@
                 "php"
             ],
             "time": "2016-09-16 12:04:44"
+        },
+        {
+            "name": "overtrue/laravel-wechat",
+            "version": "3.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/laravel-wechat.git",
+                "reference": "a9c0b0117326571fb164cb513ae9ec15ca910c46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/overtrue/laravel-wechat/a9c0b0117326571fb164cb513ae9ec15ca910c46.zip",
+                "reference": "a9c0b0117326571fb164cb513ae9ec15ca910c46",
+                "shasum": ""
+            },
+            "require": {
+                "overtrue/wechat": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\LaravelWechat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "微信 SDK for Laravel",
+            "keywords": [
+                "laravel",
+                "sdk",
+                "wechat",
+                "weixin"
+            ],
+            "time": "2017-03-21 08:59:43"
         },
         {
             "name": "overtrue/socialite",
@@ -2454,7 +2496,7 @@
             "version": "0.9.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/mockery.git",
+                "url": "https://github.com/mockery/mockery.git",
                 "reference": "4db079511a283e5aba1b3c2fb19037c645e70fc2"
             },
             "dist": {
